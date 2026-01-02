@@ -46,6 +46,11 @@ const data = {
       url: "/assignments",
       icon: ClipboardList,
     },
+    {
+      title: "Tasks (Backend1)",
+      url: "/tasks",
+      icon: ClipboardList,
+    },
   ],
 }
 
