@@ -5,7 +5,7 @@ import { AssignmentsManager } from "@/components/assignments-manager"
 
 export default async function AssignmentsPage() {
   const supabase = await createClient()
-
+  "supabase pass- @"
   const {
     data: { user },
   } = await supabase.auth.getUser()
